@@ -1,0 +1,28 @@
+{% set this = page | default(value = section) %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="{{ get_url(path = 'main.css') | safe }}">
+
+        {% set icon = get_image_metadata(path = 'apple-touch-icon.png', allow_missing = true) %}
+        {% if icon %}
+        <link rel="shortcut icon" type="image/x-icon" href="{{ get_url(path = 'favicon.ico') }}">
+        <link rel="apple-touch-icon" href="{{ get_url(path = 'apple-touch-icon.png') }}" type="image/png">
+        {% endif %}
+
+        <title>{{ this.title }}</title>
+    </head>
+
+    <body>
+        {% block header %}{% endblock header %}
+        {% block main %}{% endblock main %}
+        {% block footer %}{% endblock footer %}
+	<script src="{{ get_url(path='js/particles.js') }}"></script>
+    </body>
+
+</html>

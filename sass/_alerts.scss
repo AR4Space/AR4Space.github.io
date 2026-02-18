@@ -1,0 +1,59 @@
+.alert {
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-left: 0.25rem solid;
+  border-radius: 6px;
+  background-color: color-mix(
+      in srgb,
+      var(--color-bg) 60%,
+      white 40%
+  );
+}
+
+.alert-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.alert-icon svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.alert-title {
+  font-weight: 600;
+}
+
+/* IMPORTANT */
+.alert-important {
+ background-color: color-mix(
+      in srgb,
+      var(--color-mg) 30%,
+      white 70%
+  );
+  border-color: var(--color-mg);
+  color: var(--color-mg);
+}
+
+/* WARNING */
+.alert-warning {
+ background-color: color-mix(
+      in srgb,
+      var(--color-ac) 30%,
+      white 70%
+  );
+ border-color: var(--color-ac);
+ color: var(--color-ac);
+}
+
+.alert-content {
+  color: var(--color-bg);
+}
+
+.alert-content a {
+  color: inherit;
+  text-decoration: underline;
+}

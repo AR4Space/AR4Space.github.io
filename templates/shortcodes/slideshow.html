@@ -1,0 +1,69 @@
+<div class="slideshow" id="slideshow-{{ slug }}">
+  {% for url in urls %}
+    <img src="{{ url | safe }}" class="{% if loop.first %}active{% endif %}" />
+  {% endfor %}
+  <button id="prev-{{ slug }}">❮</button>
+  <button id="next-{{ slug }}">❯</button>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const slides_{{ slug }} = Array.from(document.querySelectorAll("#slideshow-{{ slug }} img"));
+  let current_{{ slug }} = 0;
+
+  function showSlide_{{ slug }}(index) {
+    slides_{{ slug }}[current_{{ slug }}].classList.remove('active');
+    slides_{{ slug }}[index].classList.add('active');
+    current_{{ slug }} = index;
+  }
+
+  document.getElementById("next-{{ slug }}").onclick = () => 
+    showSlide_{{ slug }}((current_{{ slug }} + 1) % slides_{{ slug }}.length);
+
+  document.getElementById("prev-{{ slug }}").onclick = () => 
+    showSlide_{{ slug }}((current_{{ slug }} - 1 + slides_{{ slug }}.length) % slides_{{ slug }}.length);
+
+  setInterval(() => showSlide_{{ slug }}((current_{{ slug }} + 1) % slides_{{ slug }}.length), 7500);
+});
+</script>
+
+<style>
+.slideshow {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 5/3;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.slideshow img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 2.5s ease;
+}
+
+.slideshow img.active {
+  opacity: 1;
+}
+
+.slideshow button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  font-size: 1.5em;
+  z-index: 2;
+}
+
+#prev-{{ slug }} { left: 0; }
+#next-{{ slug }} { right: 0; }
+</style>

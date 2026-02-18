@@ -1,0 +1,24 @@
+{% set name = name | default(value="Jon Doe") %}
+{% set affiliation = affiliation | default(value="University of Example") %}
+{% set img = img | default(value="/placeholder.svg") %}
+{% set url = url | default(value="#") %}
+
+<section class="keynote">
+
+  <div class="keynote-speaker">
+    <a href="{{ url }}" class="keynote-link">
+      <img src="{{ img }}" alt="{{ name }}" class="keynote-image" />
+      <div class="keynote-meta">
+        <span class="keynote-name">{{ name }}</span>
+        <span class="keynote-affiliation">{{ affiliation }}</span>
+      </div>
+    </a>
+  </div>
+
+  <div class="keynote-abstract">
+    <p>
+      {{ body | safe }}
+    </p>
+  </div>
+
+</section>

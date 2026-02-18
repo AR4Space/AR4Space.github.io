@@ -1,0 +1,11 @@
+base_url = "https://ar4space.github.io"
+compile_sass = true
+build_search_index = false
+generate_feeds = false
+minify_html = true
+
+[extra]
+footer_text = "<a href='/'>Back to the overview of seminars.</a> <br/> This website is built using [Zola](https://www.getzola.org) and the [Academic Workshop](http://github.com/aterenin/academic-workshop/) theme. &nbsp; ● &nbsp; <a href='/steering'>Steering Committee</a> &nbsp; ● &nbsp; <a href='/privacy'>Privacy Policy</a>"
+image = {resize = 400, ext = '.jpg'}
+list_page_limit = 10
+

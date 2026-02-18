@@ -1,0 +1,91 @@
+.two-columns {
+  display: flex;
+  justify-content: center;     /* center the whole block */
+  gap: clamp(1.5rem, 4vw, 4rem); /* responsive spacing */
+  max-width: 900px;            /* prevents over-stretching on large screens */
+  margin: 0 auto;              /* center container itself */
+  padding: 0 1rem;             /* safe side padding on small screens */
+}
+
+.two-columns > div {
+  flex: 1;                     /* equal width columns */
+  min-width: 250px;            /* prevents crushing */
+}
+
+/* Mobile layout */
+@media (max-width: 700px) {
+  .two-columns {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+
+.header h1 {
+    font-size: 3rem;
+}
+.tagline::after {
+    content: "\A";
+    white-space: pre;
+}
+header {
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-mg);
+  overflow: hidden;
+  position: relative;
+
+  --particles-count:  120;
+  --particles-radius: 60;
+  --particles-force:  0.02;
+  --particles-decay:  0.02;
+}
+
+#particles {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  height: 100%;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
+}
+
+.bg-contain {
+    background-size: contain;
+}
+.bg-cover {
+    background-size: cover;
+}
+.bg-fit-width {
+    background-size: 100% auto;
+}
+.bg-fit-height {
+    background-size: auto 100%;
+}
+.bg-tile {
+    background-size: auto auto;
+}
+.bg-no-repeat {
+    background-repeat: no-repeat !important;
+}
+.bg-odd {
+    background-color: var(--color-bg) !important;
+}
+.bg-even {
+  background-color: color-mix(
+    in srgb,
+    var(--color-bg) 90%,
+    #fff 10%
+  ) !important;
+}
+.color-text {
+    color: var(--color-fg);
+}
+.content > h1 {
+    text-align: center;
+}
