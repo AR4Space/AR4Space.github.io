@@ -34,7 +34,7 @@ long papers (including already published results). There are no
 formatting guidelines for contributions. Accepted contributions will
 be invited for presentation at the workshop. 
 
-Paper submissions are handled through this [FLoC submission system.](https://submissions.floc26.org/ar4space)
+Submissions are handled through the [FLoC submission system.](https://submissions.floc26.org/ar4space)
 
 The submission deadline is **May 11, 2026 AoE**.
 
