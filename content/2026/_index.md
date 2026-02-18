@@ -57,7 +57,7 @@ supply chains) are equally welcome.
 # Registration
 
 To register for the workshop, please follow the official instructions
-on the [FLoC web page.](https://www.floc26.org/registration)
+on the [FLoC web page](https://www.floc26.org/registration).
 
 {{ new_block() }}
 
