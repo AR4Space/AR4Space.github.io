@@ -17,4 +17,5 @@ encourage you to contact any member of the Steering Committee.
 The Steering Committee currently consists of the following members:
 
 - [Max Bannach](https://www.esa.int/gsp/ACT/team/max_bannach/) (European Space Agency)
+- [Johannes Klaus Fichte](https://liu.se/en/employee/johfi52) (Linköping University)
 - [Dario Izzo](https://www.esa.int/gsp/ACT/team/dario_izzo/) (European Space Agency)
