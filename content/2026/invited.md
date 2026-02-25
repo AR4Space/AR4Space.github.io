@@ -34,7 +34,7 @@ The Global Trajectory Optimization Competition (GTOC) is an international challe
 {% keynote(
   name="Caterina Urban", 
   url="https://caterinaurban.github.io/",
-  affiliation="INRIA",
+  affiliation="INRIA"
 ) %}
 The abstract will be announced soon.
 {% end %}
