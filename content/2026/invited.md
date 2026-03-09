@@ -3,15 +3,15 @@
 
 # Invited Speakers
 
-## Title TBA
+## Supply Chain Attacks: If the Weakest Link Breaks the Chain (and how to prevent this)
 
 {% keynote(
   name="Sebastian Berndt", 
-  url="https://www.th-luebeck.de/hochschule/organisation/personalverzeichnis/person/sebastian-berndt",
+  url="https://seberndt.github.io/",
   affiliation="TH Lübeck",
   img="/img/speakers/berndt.jpg"
 ) %}
-The abstract will be announced soon.
+Modern computer systems consist of a large number of components that are developed by third parties and later integrated into the larger system. This reliance on externally developed modules creates a significant risk of supply chain attacks, in which some of the components are intentionally manipulated to disrupt or compromise the functionality of the overall system. A related challenge arises in federated learning, where individual participants may provide manipulated or malicious training data in order to influence the resulting model. In this talk, we first provide an overview of the risks posed by such attacks. We then present several countermeasures developed for security-critical cryptographic systems that leverage formal verification techniques to ensure robustness even in the presence of potentially compromised components. Finally, we discuss how these approaches can be adapted and applied to space systems, where reliability and security are particularly critical.
 {% end %}
 
 {{ new_block() }}
