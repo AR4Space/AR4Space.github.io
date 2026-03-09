@@ -3,7 +3,7 @@
 
 # Invited Speakers
 
-## Supply Chain Attacks: If the Weakest Link Breaks the Chain (and how to prevent this)
+## Supply Chain Attacks: If the Weakest Link Breaks the Chain
 
 {% keynote(
   name="Sebastian Berndt", 
