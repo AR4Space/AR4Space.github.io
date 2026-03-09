@@ -39,4 +39,16 @@ The Global Trajectory Optimization Competition (GTOC) is an international challe
 The abstract will be announced soon.
 {% end %}
 
+{{ new_block() }}
+
+## Title TBA
+
+{% keynote(
+  name="Gricel Vázquez", 
+  url="https://gricel-lee.github.io/",
+  affiliation="University of York"
+) %}
+The abstract will be announced soon.
+{% end %}
+
 
