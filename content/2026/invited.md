@@ -41,14 +41,30 @@ The abstract will be announced soon.
 
 {{ new_block() }}
 
-## Title TBA
+## From Requirements to the Verification of Stochastic Systems
 
 {% keynote(
   name="Gricel Vázquez", 
   url="https://gricel-lee.github.io/",
-  affiliation="University of York"
+  affiliation="University of York",
+  img="/img/speakers/vazquez.jpeg"
 ) %}
-The abstract will be announced soon.
+Complex space systems, such as those deployed in orbital or deep-space
+  environments, are increasingly reliant on the seamless integration
+  of heterogeneous components operating in harsh, unpredictable
+  conditions. While the necessary system requirements are usually
+  extracted from multiple stakeholders, norms, and regulations in
+  natural language, this approach often leads to dangerous
+  ambiguities. Formal languages offer a rigorous means of expressing
+  these requirements unambiguously, while enabling the detection of
+  **realizability** issues and inconsistencies. In uncertain environments
+  such as in space, stochastic modeling of subsystems is preferred to
+  reason about the probability of a requirement holding or to estimate
+  expected operational costs. In this talk, I present two tools for
+  addressing these challenges: NASA’s **FRET** for eliciting deterministic
+  and probabilistic requirements from structured natural language, and
+  **ULTIMATE** for verifying stochastic world-models. We will end with a
+  discussion on how these tools can be applied to complex space
+  systems to bridge the gap between high-level requirements and
+  rigorous, automated formal system verification. 
 {% end %}
-
-
