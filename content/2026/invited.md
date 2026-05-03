@@ -29,14 +29,28 @@ The Global Trajectory Optimization Competition (GTOC) is an international challe
 
 {{ new_block() }}
 
-## Title TBA
+## Verified Explanations of Neural Networks
 
 {% keynote(
   name="Caterina Urban", 
   url="https://caterinaurban.github.io/",
-  affiliation="INRIA"
+  affiliation="INRIA",
+  img="/img/speakers/urban.jpeg"
 ) %}
-The abstract will be announced soon.
+Verified explanations offer a principled way to explain neural network
+  decisions by grounding explainability in formally verified
+  robustness, thereby addressing the inherently black-box nature of
+  these models. We propose two complementary notions of verified
+  explanations. The first is defined over the input space of neural
+  networks, where we introduce hierarchical explanations, termed
+  verifier-optimal robust explanations. These explanations explicitly
+  account for the incompleteness of neural network verifiers, ensuring
+  optimality with respect to the guarantees that can be formally
+  established. The second notion is defined over the network’s
+  internal (latent) representations, capturing explanations in terms
+  of the model’s inner computations. We present novel efficient
+  algorithms to compute both forms of explanations, and showcase their
+  scalability and meaningfulness in practice. 
 {% end %}
 
 {{ new_block() }}
