@@ -82,3 +82,32 @@ Complex space systems, such as those deployed in orbital or deep-space
   systems to bridge the gap between high-level requirements and
   rigorous, automated formal system verification. 
 {% end %}
+
+{{ new_block() }}
+
+## Bridging Optimization and Onboard Decision-Making: Automated Reasoning in Space Systems and Logistics
+
+{% keynote(
+  name="Chit Hong Yam", 
+  url="https://scholar.google.com/citations?user=ocWMoDMAAAAJ&hl=en",
+  affiliation="Former JAXA and iSpace Engineer",
+  img="/img/speakers/hippo.jpeg"
+) %}
+Modern space logistics systems increasingly rely on autonomous
+  decision-making across multiple layers, from mission-level planning
+  to onboard control and fault management. While these capabilities
+  are often developed under different paradigms—such as planning,
+  numerical optimization, and rule-based logic—they can be viewed
+  through a unified lens of “automated reasoning under constraints.” 
+
+This talk presents an industry perspective on how real-world space
+systems already implement such reasoning across a few layers such as:
+mission planning, continuous optimization for trajectory and control,
+and onboard fault detection and recovery logic. Drawing on experience
+from lunar mission design and operations, the talk highlights how
+these layers interact in practice, the limitations of current
+approaches, and opportunities to bridge them with advances in
+automated reasoning. The aim is to foster dialogue between the space
+and automatic reasoning communities toward more integrated and
+self-sustainable space logistics architectures. 
+{% end %}
