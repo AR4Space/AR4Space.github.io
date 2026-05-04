@@ -71,13 +71,13 @@ Complex space systems, such as those deployed in orbital or deep-space
   natural language, this approach often leads to dangerous
   ambiguities. Formal languages offer a rigorous means of expressing
   these requirements unambiguously, while enabling the detection of
-  **realizability** issues and inconsistencies. In uncertain environments
+  realizability issues and inconsistencies. In uncertain environments
   such as in space, stochastic modeling of subsystems is preferred to
   reason about the probability of a requirement holding or to estimate
   expected operational costs. In this talk, I present two tools for
-  addressing these challenges: NASA’s **FRET** for eliciting deterministic
+  addressing these challenges: NASA’s FRET for eliciting deterministic
   and probabilistic requirements from structured natural language, and
-  **ULTIMATE** for verifying stochastic world-models. We will end with a
+  ULTIMATE for verifying stochastic world-models. We will end with a
   discussion on how these tools can be applied to complex space
   systems to bridge the gap between high-level requirements and
   rigorous, automated formal system verification. 
@@ -99,6 +99,7 @@ Modern space logistics systems increasingly rely on autonomous
   are often developed under different paradigms—such as planning,
   numerical optimization, and rule-based logic—they can be viewed
   through a unified lens of “automated reasoning under constraints.” 
+
 
 This talk presents an industry perspective on how real-world space
 systems already implement such reasoning across a few layers such as:
