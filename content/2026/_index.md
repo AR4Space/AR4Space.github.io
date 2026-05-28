@@ -5,7 +5,7 @@ extra.subtitles = ["25. July, 2026"]
 extra.buttons = [
     {name="FLoC 2026", url="https://www.floc26.org/"},
 	{name="Invited Speakers", url="/2026/invited"},
-	{name="Submit", url="https://submissions.floc26.org/ar4space"},
+	{name="Schedule", url="/files/2026/schedule.pdf"},
 	{name="Registration", url="https://www.floc26.org/registration"},
 ]
 +++
