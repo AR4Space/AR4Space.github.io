@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
-   viewBox="0 0 358 211"
-   width="358"
-   height="211"
-   role="img"
-   aria-label="Automated Reasoning for Space"
+   width="512mm"
+   height="512mm"
+   viewBox="0 0 512 512"
    version="1.1"
-   id="svg16"
-   sodipodi:docname="ar4space_colored.svg"
+   id="svg1"
    inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="favicon_alt.svg"
+   inkscape:export-filename="apple-touch-icon"
+   inkscape:export-xdpi="8.9300003"
+   inkscape:export-ydpi="8.9300003"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview16"
+     id="namedview1"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
@@ -22,19 +25,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="5.5308057"
-     inkscape:cx="179.17823"
-     inkscape:cy="105.5"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.25990636"
+     inkscape:cx="590.59732"
+     inkscape:cy="1236.984"
      inkscape:window-width="3440"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g12" />
-  <title
-     id="title1">Automated Reasoning for Space</title>
+     inkscape:current-layer="layer1" />
   <defs
-     id="defs8">
+     id="defs1">
     <mask
        id="cut"
        maskUnits="userSpaceOnUse"
@@ -47,127 +49,132 @@
          y="-80"
          width="600"
          height="380"
-         fill="#fff"
+         fill="#ffffff"
          id="rect1" />
       <g
          fill="none"
-         stroke="#000"
+         stroke="#000000"
          stroke-width="34"
          stroke-linecap="round"
          stroke-linejoin="round"
          id="g4">
         <path
-           d="M40 40 L90 160 L140 40"
+           d="M 40,40 90,160 140,40"
            id="path1" />
         <path
-           d="M54.6 75 H125.4"
+           d="m 54.6,75 h 70.8"
            id="path2" />
         <path
-           d="M140 160 V40 H175 A30 30 0 0 1 175 100 H140"
+           d="M 140,160 V 40 h 35 a 30,30 0 0 1 0,60 h -35"
            id="path3" />
         <path
-           d="M166 100 L204 154"
+           d="m 166,100 38,54"
            id="path4" />
       </g>
       <g
-         transform="translate(272.2 26.2)"
+         transform="translate(272.2,26.2)"
          id="g8">
         <rect
            x="-16"
            y="-11"
            width="32"
            height="22"
-           fill="#000"
+           fill="#000000"
            id="rect4" />
         <g
            fill="none"
-           stroke="#000"
+           stroke="#000000"
            stroke-width="20"
            stroke-linecap="round"
            id="g7">
           <path
-             d="M-15.5 -22 V22"
+             d="M -15.5,-22 V 22"
              id="path5" />
           <path
-             d="M-15.5 -10 H15.5"
+             d="m -15.5,-10 h 31"
              id="path6" />
           <path
-             d="M-15.5 10 H15.5"
+             d="m -15.5,10 h 31"
              id="path7" />
         </g>
       </g>
     </mask>
   </defs>
   <g
-     transform="translate(54.6 11.8)"
-     id="g16"
-     inkscape:label="ar4space">
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
     <g
-       mask="url(#cut)"
-       id="g9"
-       inkscape:label="orbit"
-       style="display:inline">
-      <ellipse
-         cx="124"
-         cy="100"
-         rx="172"
-         ry="64"
-         transform="rotate(-20,124,100)"
-         fill="none"
-         stroke="currentColor"
-         stroke-width="7"
-         id="ellipse8"
-         style="stroke:#003247;stroke-opacity:1" />
-    </g>
-    <g
-       transform="translate(272.2,26.2)"
-       id="g12"
-       inkscape:label="models"
-       style="display:inline">
+       transform="matrix(2.7967771,0,0,2.7967771,-86.082606,-26.432965)"
+       id="g16"
+       inkscape:label="ar4space">
+      <g
+         mask="url(#cut)"
+         id="g9"
+         inkscape:label="orbit"
+         style="display:inline">
+        <ellipse
+           cx="124"
+           cy="100"
+           rx="172"
+           ry="64"
+           transform="rotate(-20,124,100)"
+           fill="none"
+           stroke="currentColor"
+           stroke-width="7"
+           id="ellipse8"
+           style="stroke:#003247;stroke-opacity:1" />
+      </g>
+      <g
+         transform="translate(272.2,26.2)"
+         id="g12"
+         inkscape:label="models"
+         style="display:inline">
+        <g
+           fill="none"
+           stroke="currentColor"
+           stroke-width="8"
+           stroke-linecap="round"
+           id="g11">
+          <path
+             d="M -15.5,-22 V 22"
+             id="path9"
+             style="stroke:#fbab18;stroke-opacity:1" />
+          <path
+             d="m -15.5,-10 h 31"
+             id="path10"
+             style="stroke:#fbab18;stroke-opacity:1" />
+          <path
+             d="m -15.5,10 h 31"
+             id="path11"
+             style="stroke:#fbab18;stroke-opacity:1" />
+        </g>
+      </g>
       <g
          fill="none"
          stroke="currentColor"
-         stroke-width="8"
+         stroke-width="16"
          stroke-linecap="round"
-         id="g11">
+         stroke-linejoin="round"
+         id="g15"
+         inkscape:label="forall R">
         <path
-           d="M -15.5,-22 V 22"
-           id="path9"
-           style="stroke:#fbab18;stroke-opacity:1" />
+           d="M 40,40 90,160 140,40"
+           id="path12"
+           style="stroke:#003247;stroke-opacity:1" />
         <path
-           d="m -15.5,-10 h 31"
-           id="path10"
-           style="stroke:#fbab18;stroke-opacity:1" />
+           d="m 54.6,75 h 70.8"
+           id="path13"
+           style="stroke:#003247;stroke-opacity:1" />
         <path
-           d="m -15.5,10 h 31"
-           id="path11"
-           style="stroke:#fbab18;stroke-opacity:1" />
+           d="M 140,160 V 40 h 35 a 30,30 0 0 1 0,60 h -35"
+           id="path14"
+           style="stroke:#003247;stroke-opacity:1" />
+        <path
+           d="m 166,100 38,54"
+           id="path15"
+           style="fill:none;fill-opacity:1;stroke:#003247;stroke-opacity:1" />
       </g>
-    </g>
-    <g
-       fill="none"
-       stroke="currentColor"
-       stroke-width="16"
-       stroke-linecap="round"
-       stroke-linejoin="round"
-       id="g15"
-       inkscape:label="forall R">
-      <path
-         d="M40 40 L90 160 L140 40"
-         id="path12"
-         style="stroke:#003247;stroke-opacity:1" />
-      <path
-         d="M54.6 75 H125.4"
-         id="path13"
-         style="stroke:#003247;stroke-opacity:1" />
-      <path
-         d="M140 160 V40 H175 A30 30 0 0 1 175 100 H140"
-         id="path14"
-         style="stroke:#003247;stroke-opacity:1" />
-      <path
-         d="M166 100 L204 154"
-         id="path15"
-         style="fill:none;fill-opacity:1;stroke:#003247;stroke-opacity:1" />
     </g>
   </g>
 </svg>
